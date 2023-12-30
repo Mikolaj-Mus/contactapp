@@ -27,7 +27,7 @@ const ContactList = ({ data, currentPage, getAllContacts }) => {
             &laquo;
           </a>
           {data &&
-            [...Array(data.totalPages).keys()].map((page, index) => (
+            [...Array(data.totalPages).keys()].map((page) => (
               <a
                 onClick={() => getAllContacts(page)}
                 className={currentPage === page ? "active" : ""}
