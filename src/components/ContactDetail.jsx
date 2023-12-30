@@ -75,7 +75,7 @@ const ContactDetail = ({ updateContact, updateImage }) => {
         <div className="profile__details">
           <img
             src={contact.photoUrl}
-            // alt={`Profile photo of ${contact.name}`}
+            alt={`Profile photo of ${contact.name}`}
           />
           <div className="profile__metadata">
             <p className="profile__name">{contact.name}</p>
