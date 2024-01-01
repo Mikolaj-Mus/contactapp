@@ -10,7 +10,7 @@ The frontend provides a simple and intuitive interface for adding and editing co
 
 It communicates with the backend through REST APIs, which repository you can find [there](https://github.com/Mikolaj-Mus/contactapi).
 
-![Application view](https://imgur.com/a/S3Cm2vz)
+![Zrzut ekranu 2024-01-01 171615.jpg](..%2F..%2FZrzut%20ekranu%202024-01-01%20171615.jpg)
 
 ## Prerequisites
 Make sure you have Docker installed on your machine. You can check this by entering the following command in the command prompt:
