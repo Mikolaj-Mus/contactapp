@@ -14,6 +14,28 @@ It communicates with the backend through REST APIs, which repository you can fin
 
 
 ## Usage
+By clicking the blue button in the top right corner, you can add a new contact.
+
+
+https://github.com/Mikolaj-Mus/contactapp/assets/114436599/02c5b215-1b85-4202-8087-89037117dc3d
+
+
+After entering the details, you can save the person, and they will appear in your contacts.
+
+
+https://github.com/Mikolaj-Mus/contactapp/assets/114436599/148081f9-2616-4470-9bbf-db36f466d1c8
+
+
+If you want to modify contact details, you can do so by clicking on the contact.
+
+
+https://github.com/Mikolaj-Mus/contactapp/assets/114436599/735bcad7-ec6c-4aa6-a1ea-fc8b8ff1eab1
+
+
+Similarly, you can change the profile picture of your contact.
+
+
+https://github.com/Mikolaj-Mus/contactapp/assets/114436599/63744e26-18a8-43d9-b944-e4d807f90f98
 
 
 ## Prerequisites
