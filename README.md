@@ -37,6 +37,12 @@ Similarly, you can change the profile picture of your contact.
 
 https://github.com/Mikolaj-Mus/contactapp/assets/114436599/63744e26-18a8-43d9-b944-e4d807f90f98
 
+Don't worry if your contact list is long; all of them will fit.
+
+
+https://github.com/Mikolaj-Mus/contactapp/assets/114436599/5e752c80-6f35-4658-aa64-e0e70dcb51ba
+
+
 
 ## Prerequisites
 Make sure you have Docker installed on your machine. You can check this by entering the following command in the command prompt:
