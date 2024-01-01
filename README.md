@@ -1,70 +1,47 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Contact App
+#### Frontend
 
-## Available Scripts
+## Description
+The frontend of the Contact App is a React application that allows users to add, edit, and delete contacts. The application provides a beautiful visual appearance with a modern design. It also allows for the storage of a large number of contacts in a clean and organized way.
 
-In the project directory, you can run:
 
-### `npm start`
+The frontend provides a simple and intuitive interface for adding and editing contacts. Users can enter the contact's name, email address, phone number, and other information.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+It communicates with the backend through REST APIs, which repository you can find [there](https://github.com/Mikolaj-Mus/contactapi).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Application view](https://imgur.com/a/S3Cm2vz)
 
-### `npm test`
+## Prerequisites
+Make sure you have Docker installed on your machine. You can check this by entering the following command in the command prompt:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+docker --version
+```
+If Docker is not installed, please refer to the official installation guides for your operating system:
 
-### `npm run build`
+- Docker Desktop for [Windows](https://docs.docker.com/desktop/install/windows-install/)
+- Docker Desktop for [Mac](https://docs.docker.com/desktop/install/mac-install/)
+- For Linux, follow the installation instructions for your specific distribution.
+```bash
+sudo apt-get update
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+sudo apt-get install docker.io
+```
+## Installation and Startup
+Get image from my Docker Hub repository
+```bash
+docker pull mikolajmus/contactapp
+```
+or clone repository and build image
+```bash
+git clone https://github.com/mikolaj-mus/contactapp.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+cd contactapp
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+docker build -t mikolajmus/contactapp
+```
+Then start up the container
+```bash
+docker run -it -p 3000:3000 mikolajmus/contactapp
+```
