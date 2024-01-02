@@ -80,7 +80,3 @@ docker run -it -p 3000:3000 mikolajmus/contactapp
 ## License
 
 This project is currently not licensed. The project is continuously being developed by me, and it is a work in progress.
-
-## Acknowledgments
-
-I draw inspiration for this project from Get Arrays.
